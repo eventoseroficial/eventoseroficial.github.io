@@ -1,3 +1,39 @@
 ---
 ---
 @import "bootstrap";
+
+body, html {
+    height: 100%;
+}
+  
+.parallax {
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+  
+.caption span {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+}
+  
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
