@@ -1,0 +1,16 @@
+- title: "Instagram"
+  href: "https://www.instagram.com"
+  image: "/assets/svg/social/instagram_logo.svg"
+
+- title: "Twitter"
+  href: "https://www.twitter.com"
+  image: "/assets/svg/social/twitter_logo.svg"
+
+- title: "Github"
+  href: "https://www.github.com"
+  image: "/assets/svg/social/github_logo.svg"
+
+- title: "RSS"
+  href: "/feed.xml"
+  image: "/assets/svg/social/rss_logo.svg"
+

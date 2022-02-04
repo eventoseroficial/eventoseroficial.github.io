@@ -1,0 +1,11 @@
+<div class="social" style="display: block;">
+  <ul>
+    {% for social in site.data.social %}
+    <li>
+        <a href="{{ social.href }}" target="_blank" title="{{ social.title }}" rel="noreferrer">
+        <object style="pointer-events: none;" type="image/svg+xml" data="{{ site.url }}{{ social.image }}" class="logo"></object>
+        </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

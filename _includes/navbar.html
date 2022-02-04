@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -9,7 +9,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
         <ul class="navbar-nav">
           {% for navbar in site.data.navbar %}
             {% if navbar.subcategories != null %}
@@ -29,7 +29,7 @@
               </li>
             {% else %}              
               <li class="nav-item">
-                <a class="nav-link" href="{{ navbar.href }}}">{{ navbar.title }}</a>
+                <a class="nav-link" href="{{ navbar.href }}">{{ navbar.title }}</a>
               </li>
             {% endif %}
           {% endfor %}

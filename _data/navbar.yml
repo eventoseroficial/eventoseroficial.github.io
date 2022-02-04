@@ -1,12 +1,31 @@
 - title: "Home"
-  href: "/"
+  href: "/index.html"
 
-- title: "News"
-  href: "/news/"
-
-- title: "Snippets"
+- title: "Registration"
+  href: "/register"
   subcategories:
-    - subtitle: "Example1"
-      subhref: "#"
-    - subtitle: "Example2"
-      subhref: "#"
+    - subtitle: "Event"
+      subhref: "/register/event"
+    - subtitle: "Submission Rules"
+      subhref: "/register/rules"
+    - subtitle: "Code of Conduct"
+      subhref: "/register/code-of-conduct"
+
+- title: "Programme"
+  href: "/programme"
+  subcategories:
+    - subtitle: "Conference program"
+      subhref: "/programme/Conference"
+
+- title: "About"
+  href: "/about"
+
+- title: "Committee"
+  href: "/committee"
+
+- title: "Follow us"
+  href: "/follow-us"
+
+- title: "Contact"
+  href: "/contact"
+  
