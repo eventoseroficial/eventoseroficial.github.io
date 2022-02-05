@@ -67,6 +67,7 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
+    ffi (1.15.5)
     ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
@@ -121,6 +122,8 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.13.1-x64-mingw32)
       racc (~> 1.4)
+    nokogiri (1.13.1-x86_64-linux)
+      racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -151,6 +154,8 @@ GEM
     rouge (3.27.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -185,6 +190,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bootstrap (~> 5.1.3)
@@ -204,4 +210,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.2.24
+   2.3.6
