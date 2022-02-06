@@ -15,7 +15,7 @@
   href: "/programme"
   subcategories:
     - subtitle: "Conference program"
-      subhref: "/programme/Conference"
+      subhref: "/programme/conference"
 
 - title: "About"
   href: "/about"
