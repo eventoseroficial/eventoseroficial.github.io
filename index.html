@@ -3,21 +3,29 @@ layout: default
 title: Home
 permalink: index.html
 ---
-{% include social.html %}
 
 <div class="parallax" style="background-image: url('{{ site.url }}/assets/img/home/niteroi-02.jpg'); box-shadow: inset 0 0 0 1000px rgba(0,0,0,.30);">
       <div class="jumbotron text-light text-center jumbotron-fluid parallax-text-center">
-        <h1 class="display-4">Lorem Ipsum</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed massa mauris, congue facilisis metus vitae.</p>
+        <h1 class="display-4">VI International Seminar on Statistics with R</h1>
+        <p class="lead">May, 25-27, 2022</p>
         <hr class="my-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu metus neque. Aenean ut nunc imperdiet, venenatis velit sit amet.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Lorem Ipsum</a>
+        <p>Revista do Seminário Internacional de Estatística com R.
+        </p>
+        <a class="btn btn-primary btn-lg" href="{{ site.url }}/register/event" role="button">Register</a>
       </div>
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">Lorem ipsum</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis sit amet leo vel egestas. Proin vitae congue mauris. Aenean et mi id magna condimentum dignissim sit amet vel nibh. Donec vitae tempus nulla. Quisque purus mauris, blandit at justo at, eleifend rutrum urna. Curabitur in ex nisi. Ut felis urna, egestas in hendrerit ut, aliquam at arcu. Proin mollis tortor vulputate est lacinia, id interdum nibh rhoncus. Sed vel purus non ligula efficitur condimentum et non ex. Curabitur tempus volutpat faucibus. Curabitur in lacus nec risus dignissim luctus et quis enim. Suspendisse feugiat lacus vel lectus congue, sed bibendum erat cursus. Phasellus gravida egestas tellus ut tincidunt.</p>
+<div class="text-center"style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h2>Parceiros</h3>
+  <div class="container align-middle">
+    <div class="row align-items-center">
+      {% for partner in site.data.partners %}
+      <div class="col">
+        <a href="{{ partner.href }}"><img src="{{ partner.image }}" alt="{{ partner.name }}"width="150px"></a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
 <div class="parallax" style="background-image: url('{{ site.url }}/assets/img/home/niteroi-02.jpg'); height: 350px">
@@ -26,6 +34,25 @@ permalink: index.html
 </div>
 
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">Lorem ipsum</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis sit amet leo vel egestas. Proin vitae congue mauris. Aenean et mi id magna condimentum dignissim sit amet vel nibh. Donec vitae tempus nulla. Quisque purus mauris, blandit at justo at, eleifend rutrum urna. Curabitur in ex nisi. Ut felis urna, egestas in hendrerit ut, aliquam at arcu. Proin mollis tortor vulputate est lacinia, id interdum nibh rhoncus. Sed vel purus non ligula efficitur condimentum et non ex. Curabitur tempus volutpat faucibus. Curabitur in lacus nec risus dignissim luctus et quis enim. Suspendisse feugiat lacus vel lectus congue, sed bibendum erat cursus. Phasellus gravida egestas tellus ut tincidunt.</p>
+  <h2 class="text-center">Depoimentos</h3>
+  <div class="container align-middle">
+    <div class="row align-items-center">
+      {% for depoiment in site.data.depoiments %}
+      <div class="col">
+        <div class="clearfix">
+
+          <div class="brief-avatar"><img src="{{ depoiment.image }}" alt="{{ depoiment.name }}"></div>
+          <div class="brief-name">{{ depoiment.name }}</div>
+          <div class="brief-job">{{ depoiment.job }}</div>
+          <div class="brief-description">{{ depoiment.text }}</div>
+
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="brief-item lslide" style="width: 362.5px; margin-right: 10px;">
+      
+
+  </div>
+  </div>
 </div>

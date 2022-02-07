@@ -50,7 +50,54 @@ body, html {
 	transition: 0.5s;
 }
 
-
 .social ul{
 	list-style-type: none;
+}
+
+/* Depoimentos ******************************************** */
+
+.brief {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 0px 50px 0px;
+    width: 80%;
+}
+/* /ajustes slider */
+
+.brief-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 235px;
+}
+
+.brief-avatar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.brief-avatar img {
+    width: 235px;
+    height: 235px;
+    border-radius: 235px;
+}
+
+.brief-name {
+    color: #00175b;
+    font-weight: bold;
+    width: 235px;
+}
+
+.brief-job {
+    color: #ff583d;
+    width: 235px;
+}
+
+.brief-description {
+    font-size: 14px;
+    margin: 10px 0px;
+    width: 235px;
 }

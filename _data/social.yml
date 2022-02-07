@@ -2,13 +2,13 @@
   href: "https://www.instagram.com/eventoseroficial/"
   image: "/assets/svg/social/instagram.svg"
 
-- title: "Twitter"
-  href: "https://www.twitter.com"
-  image: "/assets/svg/social/twitter.svg"
+# - title: "Twitter"
+#   href: "https://www.twitter.com"
+#   image: "/assets/svg/social/twitter.svg"
 
-- title: "Youtube"
-  href: "https://www.youtube.com"
-  image: "/assets/svg/social/youtube.svg"
+# - title: "Youtube"
+#   href: "https://www.youtube.com"
+#   image: "/assets/svg/social/youtube.svg"
 
 - title: "Facebook"
   href: "https://www.facebook.com"
@@ -18,7 +18,7 @@
   href: "https://github.com/eventoseroficial"
   image: "/assets/svg/social/github.svg"
 
-- title: "RSS"
-  href: "/feed.xml"
-  image: "/assets/svg/social/rss.svg"
+# - title: "RSS"
+#   href: "/feed.xml"
+#   image: "/assets/svg/social/rss.svg"
 
