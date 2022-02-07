@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 permalink: index.html
 ---
@@ -36,16 +36,16 @@ permalink: index.html
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
   <h2 class="text-center">Depoimentos</h3>
   <div class="container align-middle">
-    <div class="row align-items-center">
+    <div id="light-slider" class="row align-items-center">
       {% for depoiment in site.data.depoiments %}
-      <div class="col">
+      <div class="col d-flex justify-content-center">
         <div class="clearfix">
-
-          <div class="brief-avatar"><img src="{{ depoiment.image }}" alt="{{ depoiment.name }}"></div>
-          <div class="brief-name">{{ depoiment.name }}</div>
-          <div class="brief-job">{{ depoiment.job }}</div>
-          <div class="brief-description">{{ depoiment.text }}</div>
-
+          <div>
+            <div class="brief-avatar"><img src="{{ depoiment.image }}" alt="{{ depoiment.name }}"></div>
+            <div class="brief-name">{{ depoiment.name }}</div>
+            <div class="brief-job">{{ depoiment.job }}</div>
+            <div class="brief-description">{{ depoiment.text }}</div>
+          </div>
         </div>
       </div>
       {% endfor %}
