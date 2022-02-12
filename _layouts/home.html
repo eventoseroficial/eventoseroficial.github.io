@@ -8,10 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="{{ site.url }}/assets/favicon.ico">
     <link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/style.css">
-    <link type="text/css" rel="stylesheet" href="./assets/lightslider/css/lightslider.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/lightslider/css/lightslider.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.umd.js"></script>
+
     <script src="{{ site.url }}/assets/javascripts/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./assets/lightslider/js/lightslider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.2/js/lightgallery-all.js"></script>
   </head>
 
   <body>
@@ -21,4 +30,10 @@
     {% include footer.html %}
   </body>
   {% include lightslider.html %}
+  <script type="text/javascript">
+    lightGallery(document.getElementById('animated-thumbnails-gallery'), {
+        plugins: [lgThumbnail],
+        speed: 500
+    });
+</script>
 </html>

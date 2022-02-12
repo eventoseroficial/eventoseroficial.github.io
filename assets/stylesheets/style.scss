@@ -125,3 +125,8 @@ body, html {
 .arrow-right::before {
     transform: rotate(45deg);
 }
+
+.gallery-item {
+    width: 200px;
+    padding: 5px;
+}
