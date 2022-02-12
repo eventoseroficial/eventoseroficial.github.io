@@ -96,13 +96,13 @@ body, html {
 .brief-description {
     font-size: 14px;
     margin: 10px 0px;
-    width: 235px;
+    width: 235;
 }
 
 .lSSlideOuter .lSGallery li, .lSSlideOuter .lightSlider>* {
     display: flex;
-    align-items: center;
     margin: 0 0;
+    height: 525px;
 }
 
 .lSPrev, .lSNext {

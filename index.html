@@ -28,7 +28,7 @@ permalink: index.html
   </div>
 </div>
 
-<div class="parallax" style="background-image: url('{{ site.url }}/assets/img/home/niteroi-02.jpg'); height: 350px">
+<div class="parallax" style="background-color: royalblue; height: 350px">
   <div class="text-light text-center vertical-center parallax-text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis sit amet leo vel egestas. Proin vitae congue mauris. Aenean et mi id magna condimentum dignissim sit amet vel nibh. Donec vitae tempus nulla. Quisque purus mauris, blandit at justo at, eleifend rutrum urna. Curabitur in ex nisi. Ut felis urna, egestas in hendrerit ut, aliquam at arcu. Proin mollis tortor vulputate est lacinia, id interdum nibh rhoncus. Sed vel purus non ligula efficitur condimentum et non ex. Curabitur tempus volutpat faucibus. Curabitur in lacus nec risus dignissim luctus et quis enim. Suspendisse feugiat lacus vel lectus congue, sed bibendum erat cursus. Phasellus gravida egestas tellus ut tincidunt.
   </div>
 </div>
@@ -36,12 +36,12 @@ permalink: index.html
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
   <h2 class="text-center">Depoimentos</h3>
   <div class="container align-middle">
-    <div id="light-slider" class="row align-items-center">
+    <div id="light-slider" class="row">
       {% for depoiment in site.data.depoiments %}
       <div class="col d-flex justify-content-center">
         <div class="clearfix">
           <div>
-            <div class="brief-avatar"><img src="{{ depoiment.image }}" alt="{{ depoiment.name }}"></div>
+            <div class="brief-avatar justify-content-center"><img src="{{ depoiment.image }}" alt="{{ depoiment.name }}"></div>
             <div class="brief-name">{{ depoiment.name }}</div>
             <div class="brief-job">{{ depoiment.job }}</div>
             <div class="brief-description">{{ depoiment.text }}</div>
@@ -50,9 +50,8 @@ permalink: index.html
       </div>
       {% endfor %}
     </div>
-    <div class="brief-item lslide" style="width: 362.5px; margin-right: 10px;">
+    <div class="brief-item lslide" style="width: 400px; margin-right: 10px;">
       
-
   </div>
   </div>
 </div>
