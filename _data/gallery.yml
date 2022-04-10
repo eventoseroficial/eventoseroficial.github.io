@@ -13,3 +13,15 @@
 - alt: "foto evento"
   image: "/assets/img/event/event_04.png"
   description: "Descrição 04"
+
+- alt: "foto evento"
+  image: "/assets/img/event/event_05.png"
+  description: "Descrição 05"
+
+- alt: "foto evento"
+  image: "/assets/img/event/event_06.png"
+  description: "Descrição 06"
+
+- alt: "foto evento"
+  image: "/assets/img/event/event_07.png"
+  description: "Descrição 07"

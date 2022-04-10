@@ -17,15 +17,15 @@
     - subtitle: "Conference program"
       subhref: "/programme/conference"
 
-- title: "About"
-  href: "/about"
+# - title: "About"
+#   href: "/about"
 
 - title: "Committee"
   href: "/committee"
 
-- title: "Follow us"
-  href: "/follow-us"
+# - title: "Follow us"
+#   href: "/follow-us"
 
-- title: "Contact"
-  href: "/contact"
+# - title: "Contact"
+#   href: "/contact"
   

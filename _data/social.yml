@@ -6,9 +6,9 @@
 #   href: "https://www.twitter.com"
 #   image: "/assets/svg/social/twitter.svg"
 
-# - title: "Youtube"
-#   href: "https://www.youtube.com"
-#   image: "/assets/svg/social/youtube.svg"
+- title: "Youtube"
+  href: "https://www.youtube.com/seruff"
+  image: "/assets/svg/social/youtube.svg"
 
 - title: "Facebook"
   href: "https://www.facebook.com/eventoser.uff"

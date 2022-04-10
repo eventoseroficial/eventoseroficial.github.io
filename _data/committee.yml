@@ -1,0 +1,130 @@
+- name: "Orlando Celso Longo"
+  image: "/assets/img/committee/orlando.png"
+  institution: "PPGEC/UFF"
+  committee:
+   - "Organizing"
+   - "Scientific"
+
+- name: "Luciane Ferreira Alcoforado"
+  image: "/assets/img/committee/luciane.png"
+  institution: "AFA"
+  committee:
+   - "Organizing"
+   - "Scientific"
+
+- name: "Ariel Levy"
+  image: "/assets/img/committee/ariel.png"
+  institution: "PPGAD/UFF"
+  committee:
+   - "Organizing"
+   - "Scientific"
+
+- name: "José Rodrigo de Moraes"
+  image: "/assets/img/committee/jose-rodrigo.png"
+  institution: "IME/UFF"
+  committee:
+   - "Scientific"
+
+- name: "Steven Dutt Ross"
+  image: "/assets/img/committee/steven.png"
+  institution: "UNIRIO"
+  committee:
+   - "Organizing"
+   - "Scientific"
+
+- name: "Manuel Febrero Band"
+  image: "/assets/img/committee/avatar.png"
+  institution: "UN. SANTIAGO COMPOSTELLA"
+  committee:
+   - "Organizing"
+   - "Scientific"
+
+- name: "Felipe Rafael Ribeiro Melo"
+  image: "/assets/img/committee/avatar.png"
+  institution: "UNIRIO"
+  committee:
+   - "Organizing"
+   - "Scientific"
+
+- name: "Letícia Martins Raposo"
+  image: "/assets/img/committee/avatar.png"
+  institution: "UNIRIO"
+  committee:
+   - "Organizing"
+   - "Scientific"
+
+- name: "Andrea Ugolini"
+  image: "/assets/img/committee/avatar.png"
+  institution: "UERJ"
+  committee:
+   - "Organizing"
+   - "Scientific"
+
+- name: "Renata Belluzzo Zirondi Mori"
+  image: "/assets/img/committee/avatar.png"
+  institution: "AFA"
+  committee:
+   - "Organizing"
+   - "Scientific"
+
+- name: "Maysa Sacramento de Magalhães"
+  image: "/assets/img/committee/avatar.png"
+  institution: "ENCE/IBGE"
+  committee:
+   - "Scientific"
+
+- name: "Assed Naked Haddad"
+  image: "/assets/img/committee/avatar.png"
+  institution: "UFRJ"
+  committee:
+   - "Scientific"
+
+- name: "Carlos Alberto Pereira Soares"
+  image: "/assets/img/committee/avatar.png"
+  institution: "PPGEC/UFF"
+  committee:
+   - "Scientific"
+
+- name: "Noelle Santos Camello"
+  image: "/assets/img/committee/avatar.png"
+  institution: "UN. AVEIRO"
+  committee:
+   - "Organizing"
+
+- name: "Vanessa Manhães Almeida"
+  image: "/assets/img/committee/avatar.png"
+  institution: "PPGEC/UFF"
+  committee:
+   - "Organizing"
+
+- name: "João Paulo Martins dos Santos"
+  image: "/assets/img/committee/avatar.png"
+  institution: "AFA"
+  committee:
+   - "Organizing"
+
+- name: "Marcos dos Santos"
+  image: "/assets/img/committee/avatar.png"
+  institution: "IME"
+  committee:
+   - "Organizing"
+
+- name: "Fernando Barbalho"
+  image: "/assets/img/committee/avatar.png"
+  institution: "TESOURO NACIONAL"
+  committee:
+   - "Organizing"
+
+# - name: "GENERIC"
+#   image: "/assets/img/committee/avatar.png"
+#   institution: "INSTITUTION"
+#   committee:
+#    - "Organizing"
+#    - "Scientific"
+
+# - name: "GENERIC"
+#   image: "/assets/img/committee/avatar.png"
+#   institution: "INSTITUTION"
+#   committee:
+#    - "Organizing"
+#    - "Scientific"
