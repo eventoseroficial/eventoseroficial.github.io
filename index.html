@@ -15,8 +15,8 @@ permalink: index.html
       </div>
 </div>
 
-<div class="text-center"style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h2>Parceiros</h3>
+<div class="text-center"style="color: #777;background-color:white;text-align:center;padding:50px 80px;">
+  <h2>Parceiros</h2>
   <div class="container align-middle">
     <div class="row align-items-center">
       {% for partner in site.data.partners %}
@@ -28,12 +28,12 @@ permalink: index.html
   </div>
 </div>
 
-<div style="background-color: royalblue; height: 350px">
+<div style="background-color: royalblue; padding:50px 80px;text-align: justify;" >
   {% include homegallery.html %}
 </div>
 
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h2 class="text-center">Depoimentos</h3>
+  <h2 class="text-center" style="padding-bottom: 2em;">Depoimentos</h3>
   <div class="container align-middle">
     <div id="light-slider" class="row">
       {% for depoiment in site.data.depoiments %}
