@@ -1,48 +1,17 @@
-  <!-- <div class="container-sm">
-    <div class="text-light text-center vertical-center parallax-text-center">
-      <h2>Galeria</h2>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col col-md-10">
-        <div class="gallery-container" id="animated-thumbnails-gallery">
-          <a data-lg-size="1600-1067" class="gallery-item" data-src="/assets/img/event/event_01.png" data-sub-html="DESCRICAO">
-            <img alt="layers of blue." class="img-responsive" src="/assets/img/event/event_01.png" style="height: 225px;"/>
-          </a>
-          <a data-lg-size="1600-1067" class="gallery-item" data-src="/assets/img/event/event_02.png" data-sub-html="DESCRICAO" > 
-            <img alt="layers of blue." class="img-responsive" src="/assets/img/event/event_02.png" style="height: 225px;"/>
-          </a>
-          <a data-lg-size="1600-1067" class="gallery-item" data-src="/assets/img/event/event_03.png" data-sub-html="DESCRICAO">
-            <img alt="layers of blue." class="img-responsive" src="/assets/img/event/event_03.png" style="height: 225px;"/>
-          </a>
-          
-        </div>
-      </div>
-    </div>
-  </div> -->
-  
-  <div class="text-light text-center vertical-center parallax-text-center">
-    <h2>Galeria</h2>
-  </div>
-    <div class="container align-middle text-center" >
-      <div class="row align-items-center"> 
-  
-        <div class="gallery-container" id="animated-thumbnails-gallery">
-          <a data-lg-size="1600-1067" class="gallery-item" data-src="/assets/img/event/event_01.png" data-sub-html="DESCRICAO">
-            <img alt="layers of blue." class="img-responsive" src="/assets/img/event/event_01.png"/>
-          </a>
+<div class="text-light text-center vertical-center parallax-text-center">
+  <h2>Galeria</h2>
+</div>
+<div class="container align-middle text-center" >
+  <div class="row align-items-center"> 
 
-          <a data-lg-size="1600-1067" class="gallery-item" data-src="/assets/img/event/event_02.png" data-sub-html="DESCRICAO" > 
-            <img alt="layers of blue." class="img-responsive" src="/assets/img/event/event_02.png/">
-          </a>
-      
-          <a data-lg-size="1600-1067" class="gallery-item" data-src="/assets/img/event/event_03.png" data-sub-html="DESCRICAO" > 
-            <img alt="layers of blue." class="img-responsive" src="/assets/img/event/event_03.png"/>
-          </a>
-        
-          <a data-lg-size="1600-1067" class="gallery-item" data-src="/assets/img/event/event_04.png" data-sub-html="DESCRICAO"> 
-            <img alt="layers of blue." class="img-responsive" src="/assets/img/event/event_04.png"/>
-          </a>
-        </div>
-      </div>
+    <div class="gallery-container" id="animated-thumbnails-gallery">
+
+      {% for gallery in site.data.gallery %}
+      <a data-lg-size="1600-1067" class="gallery-item" data-src="{{ gallery.image }}" data-sub-html="{{ gallery.description }}">
+        <img alt="layers of blue." class="img-responsive" src="{{ gallery.image }}"/>
+      </a>
+      {% endfor %}
+
     </div>
   </div>
+</div>
