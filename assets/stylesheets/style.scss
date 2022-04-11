@@ -167,22 +167,3 @@ body, html {
 #committee img {
     filter: grayscale(100%);
 }
-
-.photo-gallery, .photo-gallery li {
-	list-style: none;
-	padding: 0;
-}
-
-.photo-gallery li {
-	display: inline-block;
-	width: 33%;
-}
-
-.photo-gallery li img {
-    width: 100%;
-}
-
-.text-box{
-    padding:2em 2em 2em 1em;
-    text-align: justify;
-}
