@@ -1,24 +1,24 @@
 ---
 layout: home
 title: Home
-permalink: index.html
+permalink: /PT_br/index.html
 ---
 
 <div class="parallax" style="background-image: url('{{ site.url }}/assets/img/home/niteroi-02.jpg'); box-shadow: inset 0 0 0 1000px rgba(0,0,0,.30);">
       <div class="jumbotron text-light text-center jumbotron-fluid parallax-text-center">
-        <h1 class="display-4">VI International Seminar on Statistics with R</h1>
-        <p class="lead">May, 25-27, 2022</p>
+        <h1 class="display-4">Revista Internacional de Estatística com R</h1>
+        <p class="lead">25-27 de Maio de 2022</p>
         <hr class="my-4">
         <!-- <p>Revista do Seminário Internacional de Estatística com R. </p>-->
         <div class="container d-grid gap-2 d-md-block">
-          <button class="btn btn-primary btn-lg" href="{{ site.url }}/register/event" role="button">Learn more</button>
-          <button class="btn btn-primary btn-lg" href="https://periodicos.uff.br/anaisdoser/index" role="button">Journal of the International Statistics Seminar with R</button>
+          <button class="btn btn-primary btn-lg" href="{{ site.url }}/register/event" role="button">Saiba Mais</button>
+          <button class="btn btn-primary btn-lg" href="https://periodicos.uff.br/anaisdoser/index" role="button">Revista Internacional de Estatística com R</button>
         </div>
       </div>
 </div>
 
 <div class="text-center text-box"style="color: #777;background-color:white;">
-  <h2>Partners</h2>
+  <h2>Parceiros</h2>
   <div class="container align-middle">
     <div class="row align-items-center">
       {% for partner in site.data.partners %}
@@ -32,13 +32,13 @@ permalink: index.html
 
 <div style="background-color: rgba(32, 101, 198, 0.75); padding:50px 50px 0px 50px;text-align: justify;" >
   <div class="text-light text-center vertical-center parallax-text-center">
-    <h2>Gallery</h2>
+    <h2>Galeria</h2>
   </div>
   {% include homegallery.html %}
 </div>
 
 <div style="color: #777;background-color:white;" class="text-box">
-  <h2 class="text-center" style="padding-bottom: 30px;">Testimonials</h3>
+  <h2 class="text-center" style="padding-bottom: 30px;">Depoimentos</h3>
   <div class="container align-middle">
     <div id="light-slider" class="row">
       {% for depoiment in site.data.depoiments %}
