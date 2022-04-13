@@ -168,6 +168,10 @@ body, html {
     filter: grayscale(100%);
 }
 
+#committee img:hover {
+    filter: grayscale(0);
+}
+
 .text-box {
     padding:2em 2em 2em 1em;
     text-align: justify;
