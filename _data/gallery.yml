@@ -3,8 +3,8 @@
   description: "Descrição 01"
 
 - alt: "foto evento"
-  image: "/assets/img/event/event_02.png"
-  description: "Descrição 02"
+  image: "/assets/img/event/event_06.png"
+  description: "Descrição 06"
 
 - alt: "foto evento"
   image: "/assets/img/event/event_03.png"
@@ -19,8 +19,8 @@
   description: "Descrição 05"
 
 - alt: "foto evento"
-  image: "/assets/img/event/event_06.png"
-  description: "Descrição 06"
+  image: "/assets/img/event/event_02.png"
+  description: "Descrição 02"
 
 - alt: "foto evento"
   image: "/assets/img/event/event_07.png"

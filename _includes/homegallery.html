@@ -1,14 +1,30 @@
 <div class="text-light text-center vertical-center parallax-text-center">
   <h2>Gallery</h2>
 </div>
-<div class="container align-center" >
-    <div class="row gallery-container" id="animated-thumbnails-gallery">
-
-      {% for gallery in site.data.gallery %}
-        <li class="col d-flex justify-content-center clearfix" data-lg-size="1600-1067" class="gallery-item" data-src="{{ gallery.image }}" data-sub-html="{{ gallery.description }}">
-          <img style="max-height: 25vh;" alt="layers of blue." class="img-responsive" src="{{ gallery.image }}"/>
-        </li>
+<div class="container-fluid">
+  <div class="row justify-content-center" id="animated-thumbnails-gallery">
+    {% assign division = site.data.gallery.size | divided_by:3 %}
+    <div class="column">
+      {% for gallery in site.data.gallery limit:division %}
+        <a class="gallery-item" data-src="{{ gallery.image }}" data-sub-html="{{ gallery.description }}">
+          <img alt="{{ gallery.alt }}" src="{{ gallery.image }}"/>
+        </a>
       {% endfor %}
-
+    </div>
+    <div class="column">
+      {% for gallery in site.data.gallery limit:division offset:continue %}
+        <a class="gallery-item" data-src="{{ gallery.image }}" data-sub-html="{{ gallery.description }}">
+          <img alt="{{ gallery.alt }}" src="{{ gallery.image }}"/>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="column">
+      {% for gallery in site.data.gallery limit:division offset:continue %}
+        <a class="gallery-item" data-src="{{ gallery.image }}" data-sub-html="{{ gallery.description }}">
+          <img alt="{{ gallery.alt }}" src="{{ gallery.image }}"/>
+        </a>
+      {% endfor %}
+    </div>
+    
   </div>
 </div>
