@@ -10,12 +10,14 @@ permalink: index.html
         <p class="lead">May, 25-27, 2022</p>
         <hr class="my-4">
         <!-- <p>Revista do Seminário Internacional de Estatística com R. </p>-->
-        <a class="btn btn-primary btn-lg" href="{{ site.url }}/register/event" role="button">Learn more</a>
-        <a class="btn btn-primary btn-lg" href="https://periodicos.uff.br/anaisdoser/index" role="button">Journal of the International Statistics Seminar with R</a>
+        <div class="container d-grid gap-2 d-md-block">
+          <button class="btn btn-primary btn-lg" href="{{ site.url }}/register/event" role="button">Learn more</button>
+          <button class="btn btn-primary btn-lg" href="https://periodicos.uff.br/anaisdoser/index" role="button">Journal of the International Statistics Seminar with R</button>
+        </div>
       </div>
 </div>
 
-<div class="text-center"style="color: #777;background-color:white;text-align:center;padding:50px 80px;">
+<div class="text-center text-box"style="color: #777;background-color:white;">
   <h2>Partners</h2>
   <div class="container align-middle">
     <div class="row align-items-center">
@@ -32,8 +34,8 @@ permalink: index.html
   {% include homegallery.html %}
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;text-align: justify;">
-  <h2 class="text-center" style="padding: 2em;">Testimonials</h3>
+<div style="color: #777;background-color:white;" class="text-box">
+  <h2 class="text-center" style="padding-bottom: 30px;">Testimonials</h3>
   <div class="container align-middle">
     <div id="light-slider" class="row">
       {% for depoiment in site.data.depoiments %}
@@ -52,33 +54,3 @@ permalink: index.html
     <div class="brief-item lslide" style="width:300px; margin-right: 10px;"></div>
   </div>
 </div>
-
-<!-- <div class="container">
-  <div class="row">
-    <div class="column">
-      <img src="https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
-      <img src="https://images.pexels.com/photos/2419375/pexels-photo-2419375.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-      <img src="https://images.pexels.com/photos/2326290/pexels-photo-2326290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-      <img src="https://images.pexels.com/photos/3251006/pexels-photo-3251006.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-      <img src="https://images.pexels.com/photos/1980720/pexels-photo-1980720.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-    </div>
-    <div class="column">
-      <img src="https://images.pexels.com/photos/3546429/pexels-photo-3546429.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-      <img src="https://images.pexels.com/photos/3889868/pexels-photo-3889868.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-      <img src="https://images.pexels.com/photos/2091160/pexels-photo-2091160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-      <img src="https://images.pexels.com/photos/2019546/pexels-photo-2019546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-    </div>
-    <div class="column gallery-container d-flex align-items-center justify-content-center" id="animated-thumbnails-gallery">
-      {% for gallery in site.data.gallery %}
-      <a class="gallery-item" data-src="{{ gallery.image }}" data-sub-html="Meu pau de bone">
-        <img src="{{ gallery.image }}" />
-      </a>
-      {% endfor %}
-    
-      <img src="https://images.pexels.com/photos/2360569/pexels-photo-2360569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-      <img src="https://images.pexels.com/photos/3779785/pexels-photo-3779785.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-      <img src="https://images.pexels.com/photos/259987/pexels-photo-259987.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-      <img src="https://images.pexels.com/photos/2350514/pexels-photo-2350514.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-    </div>
-  </div>
-</div> -->
