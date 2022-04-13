@@ -3,9 +3,16 @@
 </div>
 <div class="container-fluid">
   <div class="row justify-content-center" id="animated-thumbnails-gallery">
-    {% assign division = site.data.gallery.size | divided_by:3 %}
+    {% assign division = site.data.gallery.size | divided_by:4 %}
     <div class="column">
       {% for gallery in site.data.gallery limit:division %}
+        <a class="gallery-item" data-src="{{ gallery.image }}" data-sub-html="{{ gallery.description }}">
+          <img alt="{{ gallery.alt }}" src="{{ gallery.image }}"/>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="column">
+      {% for gallery in site.data.gallery limit:division offset:continue %}
         <a class="gallery-item" data-src="{{ gallery.image }}" data-sub-html="{{ gallery.description }}">
           <img alt="{{ gallery.alt }}" src="{{ gallery.image }}"/>
         </a>

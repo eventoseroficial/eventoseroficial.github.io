@@ -3,8 +3,8 @@
   description: "Descrição 01"
 
 - alt: "foto evento"
-  image: "/assets/img/event/event_06.png"
-  description: "Descrição 06"
+  image: "/assets/img/event/event_02.png"
+  description: "Descrição 02"
 
 - alt: "foto evento"
   image: "/assets/img/event/event_03.png"
@@ -19,9 +19,29 @@
   description: "Descrição 05"
 
 - alt: "foto evento"
-  image: "/assets/img/event/event_02.png"
-  description: "Descrição 02"
+  image: "/assets/img/event/event_06.png"
+  description: "Descrição 06"
 
 - alt: "foto evento"
   image: "/assets/img/event/event_07.png"
   description: "Descrição 07"
+
+- alt: "foto evento"
+  image: "/assets/img/event/event_08.png"
+  description: "Descrição 08"
+
+- alt: "foto evento"
+  image: "/assets/img/event/event_09.png"
+  description: "Descrição 09"
+
+- alt: "foto evento"
+  image: "/assets/img/event/event_10.png"
+  description: "Descrição 10"
+
+- alt: "foto evento"
+  image: "/assets/img/event/event_11.jpg"
+  description: "Descrição 11"
+
+- alt: "foto evento"
+  image: "/assets/img/event/event_12.jpg"
+  description: "Descrição 12"
