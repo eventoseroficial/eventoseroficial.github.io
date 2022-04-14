@@ -20,7 +20,7 @@ permalink:  /PT_br/committee.html
           <div class="clearfix">
             <div>
               <div class="brief-avatar justify-content-center"><img src="{{ person.image }}" alt="{{ person.name }}"></div>
-              <div class="brief-name">{{ person.name }}</div>
+              <div class="brief-name" style="text-align: left;">{{ person.name }}</div>
               <div class="brief-job">{{ person.institution }}</div>
               {% for job in person.committee %}
               <div class="brief-description">{{ job }} Committee</div>
