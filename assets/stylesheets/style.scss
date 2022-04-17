@@ -173,6 +173,12 @@ body, html {
     filter: grayscale(0);
 }
 
+@media screen and (max-width: 600px) {
+  #committee img{
+    filter: grayscale(0);
+  }
+}
+
 .text-box {
     padding:2em 2em 2em 1em;
     text-align: justify;
