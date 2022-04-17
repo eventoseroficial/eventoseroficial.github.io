@@ -47,7 +47,7 @@
    - "Scientific"
 
 - name: "Letícia Martins Raposo"
-  image: "/assets/img/committee/avatar.png"
+  image: "/assets/img/committee/leticia.png"
   institution: "UNIRIO"
   committee:
    - "Organizing"
@@ -98,19 +98,19 @@
    - "Organizing"
 
 - name: "João Paulo Martins dos Santos"
-  image: "/assets/img/committee/avatar.png"
+  image: "/assets/img/committee/joao-paulo.png"
   institution: "AFA"
   committee:
    - "Organizing"
 
 - name: "Marcos dos Santos"
-  image: "/assets/img/committee/avatar.png"
+  image: "/assets/img/committee/marcos.png"
   institution: "IME"
   committee:
    - "Organizing"
 
 - name: "Fernando Barbalho"
-  image: "/assets/img/committee/avatar.png"
+  image: "/assets/img/committee/fernando-barbalho.png"
   institution: "TESOURO NACIONAL"
   committee:
    - "Organizing"
