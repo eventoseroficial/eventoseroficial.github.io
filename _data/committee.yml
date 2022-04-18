@@ -40,7 +40,7 @@
    - "Scientific"
 
 - name: "Felipe Rafael Ribeiro Melo"
-  image: "/assets/img/committee/avatar.png"
+  image: "/assets/img/committee/felipe-rafael.png"
   institution: "UNIRIO"
   committee:
    - "Organizing"
@@ -61,7 +61,7 @@
    - "Scientific"
 
 - name: "Renata Belluzzo Zirondi Mori"
-  image: "/assets/img/committee/avatar.png"
+  image: "/assets/img/committee/renata.png"
   institution: "AFA"
   committee:
    - "Organizing"
@@ -115,16 +115,14 @@
   committee:
    - "Organizing"
 
-# - name: "GENERIC"
-#   image: "/assets/img/committee/avatar.png"
-#   institution: "INSTITUTION"
-#   committee:
-#    - "Organizing"
-#    - "Scientific"
+- name: "Lyncoln Sousa de Oliveira"
+  image: "/assets/img/committee/lyncoln.jpg"
+  institution: "UFF"
+  committee:
+   - "Organizing"
 
-# - name: "GENERIC"
-#   image: "/assets/img/committee/avatar.png"
-#   institution: "INSTITUTION"
-#   committee:
-#    - "Organizing"
-#    - "Scientific"
+- name: "Daniel do Santos"
+  image: "/assets/img/committee/daniel.png"
+  institution: "UFF"
+  committee:
+   - "Organizing"
